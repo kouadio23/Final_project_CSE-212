@@ -23,13 +23,13 @@ Lets consider a queue of persons in a line:
 
 ```
 person = []
-person.append('Frank')
+person.append('Franck')
 person.append('Mark')
 person.append('Ella')
 person.append('Emerauld')
 print(person) 
 
-#result: ['Frank','Mark','Ella','Emerauld']
+#result: ['Franck','Mark','Ella','Emerauld']
 
 ```
 Here we use the "append" operation of the list to simulate the core operations of a queue.
