@@ -2,7 +2,7 @@
 
 1. Definition 
 
-A set is a data structure that can store any number of unique values in any order. Sets are different from arrays in the sense that they only allow non-repeated, unique values within them.
+A set is a data structure that can store any number of unique values in any order. Sets are different from arrays in the sense that they only allow non-repeated, unique values within them. It is also a data structure that does not keep the elements in any order, but it is very efficient when searching for an element in the set.
 
 2. Implementing 
 
@@ -31,8 +31,7 @@ Here we can see that when implementing the set, the letters are not repeatred.
 We can use the "add(value)" to add a value to a set and "remove(value)" to remove a value from a set.
 
 * Performance
-
-
+Because sets cannot have multiple occurrences of the same element, it makes sets highly useful to efficiently remove duplicate values from a list or tuple and to perform common math operations like unions and intersections.
 
 *  [Problem](set-problem.py)
 
